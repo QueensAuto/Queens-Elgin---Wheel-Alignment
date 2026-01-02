@@ -1,6 +1,6 @@
 import { Translations, Review } from './types';
 
-export const WEBHOOK_URL = 'https://n8n.queensautoservices.com/webhook-test/5257a877-2832-4648-ad0d-af264c1f5bbc';
+export const WEBHOOK_URL = 'https://n8n.queensautoservices.com/webhook/5257a877-2832-4648-ad0d-af264c1f5bbc';
 
 export const translations: Translations = {
     en: {

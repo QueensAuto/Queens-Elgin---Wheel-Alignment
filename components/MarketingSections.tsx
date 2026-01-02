@@ -347,7 +347,7 @@ export const WhenToReplaceSection: React.FC<SectionProps> = ({ t }) => (
       </div>
       <div className="rounded-2xl overflow-hidden">
         <img
-          src="/images/Queens Auto Services - Auto Repair - 004.webp"
+          src="/images/tire-wear.png"
           alt="Uneven tire wear comparison"
           className="w-full transition-transform duration-700 hover:scale-110"
           onError={(e) =>
@@ -586,7 +586,7 @@ export const WhyImportantSection: React.FC<SectionProps> = ({ t }) => (
       </div>
       <div className="rounded-2xl overflow-hidden shadow-lg mt-8 md:mt-0">
         <img
-          src="/images/Queens Auto Services - Auto Repair - 004.webp"
+          src="/images/Queens Auto Services - Auto Repair -  004.webp"
           alt="Poor Wheel Alignment"
           className="w-full transition-transform duration-700 hover:scale-110"
           onError={(e) =>
@@ -786,16 +786,16 @@ export const ServiceAreaSection: React.FC<SectionProps> = ({ t }) => (
         <div className="w-24 h-1 bg-cyan-400 mt-4 mb-6"></div>
         <ul className="grid grid-cols-2 gap-x-8 gap-y-4 text-slate-300 animate-on-scroll fade-up delay-1">
           {[
-            "Algonquin, IL",
-            "Lake in the Hills, IL",
-            "Carpentersville, IL",
+            "Elgin, IL",
+            "South Elgin, IL",
+            "Dundee, IL",
             "West Dundee, IL",
             "East Dundee, IL",
-            "Huntley, IL",
-            "Bartlett, IL",
+            "Carpentersville, IL",
             "Streamwood, IL",
+            "Bartlett, IL",
             "Hoffman Estates, IL",
-            "Elgin, IL",
+            "Algonquin, IL",
           ].map((city) => (
             <li key={city} className="flex items-center">
               <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-2"></span>
@@ -806,14 +806,14 @@ export const ServiceAreaSection: React.FC<SectionProps> = ({ t }) => (
       </div>
       <div className="h-64 md:h-80 rounded-2xl overflow-hidden glass-card">
         <a
-          href="https://maps.google.com/?q=2401+E+Algonquin+Rd,+Algonquin,+IL+60102"
+          href="https://maps.google.com/?q=1303+Dundee+Ave,+Elgin,+IL+60120"
           target="_blank"
           rel="noreferrer"
           className="block w-full h-full"
         >
           <img
             src="/images/Queens-Auto-Services-Map.webp"
-            alt="Queens Auto Service Algonquin - 2401 E Algonquin Rd, Algonquin, IL 60102"
+            alt="Queens Auto Service Elgin"
             className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
           />
         </a>

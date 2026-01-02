@@ -299,9 +299,9 @@ const ThankYouPage: React.FC<ThankYouPageProps> = ({ lang = 'en' }) => {
                 </p>
                 <a
                   className="inline-block w-full max-w-xs px-6 py-3 border border-gray-600 rounded-full text-white font-semibold hover:bg-gray-800 transition-colors text-center"
-                  href="tel:847-844-1700"
+                  href="tel:224-635-3000"
                 >
-                  (847) 844-1700
+                  (224) 635-3000
                 </a>
               </div>
               <div className="bg-[#111827] rounded-lg p-8 border border-gray-800">
@@ -309,11 +309,11 @@ const ThankYouPage: React.FC<ThankYouPageProps> = ({ lang = 'en' }) => {
                   Where to Find Us
                 </h3>
                 <p className="text-gray-400 mb-6">
-                  2401 E Algonquin Rd, Algonquin, IL 60102
+                  1303 Dundee Ave, Elgin, IL 60120
                 </p>
                 <a
                   className="inline-block w-full max-w-xs px-6 py-3 border border-gray-600 rounded-full text-white font-semibold hover:bg-gray-800 transition-colors text-center"
-                  href="https://maps.google.com/?q=2401+E+Algonquin+Rd,+Algonquin,+IL+60102"
+                  href="https://maps.google.com/?q=1303+Dundee+Ave,+Elgin,+IL+60120"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -328,15 +328,15 @@ const ThankYouPage: React.FC<ThankYouPageProps> = ({ lang = 'en' }) => {
         <div className="container mx-auto">
           <p>
             © 2025 Queens Auto Service. All Rights Reserved. |{" "}
-            <a className="hover:text-cyan-400" href="https://queensautoservices.com/privacy" target="_blank" rel="noreferrer">
+            <a className="hover:text-cyan-400" href="https://queensautoserviceselgin.com/privacy" target="_blank" rel="noreferrer">
               Privacy Policy
             </a>{" "}
             |{" "}
-            <a className="hover:text-cyan-400" href="https://queensautoservices.com/terms" target="_blank" rel="noreferrer">
+            <a className="hover:text-cyan-400" href="https://queensautoserviceselgin.com/terms" target="_blank" rel="noreferrer">
               Terms of Use
             </a>
           </p>
-          <p className="mt-1">2401 E Algonquin Rd, Algonquin, IL 60102</p>
+          <p className="mt-1">1303 Dundee Ave, Elgin, IL 60120</p>
         </div>
       </footer>
     </div>

@@ -196,7 +196,8 @@ const BookingForm: React.FC<BookingFormProps> = ({ t, lang }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const formattedPhone = `+1${formData.phone.replace(/\D/g, '')}`;
+    const cleanPhone = formData.phone.replace(/\D/g, '');
+    const formattedPhone = cleanPhone.startsWith('1') ? `+${cleanPhone}` : `+1${cleanPhone}`;
 
     // Collect UTM params
     const params = new URLSearchParams(window.location.search);
